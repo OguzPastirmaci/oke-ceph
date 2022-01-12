@@ -45,4 +45,8 @@ kubectl -n rook-ceph exec -it deploy/rook-ceph-tools -- bash
 ceph status
 ```
 
+**Create Ceph block storage**
+
+Follow the instructions for creating a Ceph block storage and test mounting it to pods:
+https://rook.io/docs/rook/v1.8/ceph-block.html
 
