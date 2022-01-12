@@ -35,7 +35,7 @@ kubectl -n rook-ceph get pod
 kubectl create -f toolbox.yaml
 ```
 
-**Connect to to toolbox**
+**Wait for the Toolbox pod to be running and connect to to toolbox**
 ```
 kubectl -n rook-ceph exec -it deploy/rook-ceph-tools -- bash
 ```
